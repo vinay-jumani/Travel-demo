@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+.session1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 60vw;
+
+}
+
+.img{
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+}
+
+#backbutton{
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#frontbutton{
+    cursor: pointer;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.session1::-webkit-scrollbar{
+    display: none;
+}
+
+</style>
+
+<body>
+<div class="main-div">
+    <img id="frontbutton"   src="img/1-session3.svg" alt="">
+    <div class="session1">
+
+
+
+        <img class="img" src="img/jap.jpg" alt="">
+        <img class="img" src="img/london.jpg" alt="">
+        <img class="img" src="img/italy.jpg" alt="">
+        <img class="img" src="img/aus.jpg" alt="">
+        <img class="img" src="img/nyc.jpg" alt="">
+        <img class="img" src="img/san.jpg" alt="">
+
+
+
+    </div>
+    <img id="backbutton" src="img/1-session3.svg" alt="">
+
+</div>
+    <script  >
+     let scrollContainer=document.querySelector(".session1");
+ let frontbutton = document.getElementById("frontbutton");
+ let backbutton = document.getElementById("backbutton");
+
+ frontbutton.addEventListener("click", ()=>{
+     scrollContainer.style.scrollBehavior = "smooth"
+     scrollContainer.scrollLeft -= 650;
+ });
+
+
+ backbutton.addEventListener("click", ()=>{
+     scrollContainer.style.scrollBehavior = "smooth"
+     scrollContainer.scrollLeft += 650;
+ });
+
+    </script>
+
+
+
+
+</body>
+</html>
