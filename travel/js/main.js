@@ -54,7 +54,7 @@
 function scrolll(){
 
     var right = document.querySelector(".scroll-bar");
-    right.scrollLeft -=300;
+    right.scrollLeft -=340;
 }
 
 
@@ -62,14 +62,14 @@ function scrolll(){
 function scrollr(){
 
     var right = document.querySelector(".scroll-bar");
-    right.scrollLeft +=300;
+    right.scrollLeft +=340;
 }
 
 
 function scrolllsession5(){
 
     var right = document.querySelector(".scroll-bar1");
-    right.scrollLeft -=300;
+    right.scrollLeft -=340;
 }
 
 
@@ -77,13 +77,13 @@ function scrolllsession5(){
 function scrollrsession5(){
 
     var right = document.querySelector(".scroll-bar1");
-    right.scrollLeft +=300;
+    right.scrollLeft +=340;
 }
 
 function scrolllsession6(){
 
     var right = document.querySelector(".scroll-bar2");
-    right.scrollLeft -=300;
+    right.scrollLeft -=340;
 }
 
 
@@ -91,13 +91,13 @@ function scrolllsession6(){
 function scrollrsession6(){
 
     var right = document.querySelector(".scroll-bar2");
-    right.scrollLeft +=300;
+    right.scrollLeft +=340;
 }
 
 function scrolllsession7(){
 
     var right = document.querySelector(".scroll-bar3");
-    right.scrollLeft -=300;
+    right.scrollLeft -=340;
 }
 
 
@@ -105,7 +105,7 @@ function scrolllsession7(){
 function scrollrsession7(){
 
     var right = document.querySelector(".scroll-bar3");
-    right.scrollLeft +=300;
+    right.scrollLeft +=340;
 }
 
 
